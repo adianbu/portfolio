@@ -1,0 +1,53 @@
+
+
+.projects{
+    margin-top: 0;
+    background-color: #282c34;
+    color: white;
+    padding: 15px;
+}
+
+
+.projects_link{
+    color:aqua  !important;
+}
+
+.projects_title{
+    margin-top: 0;
+    font-size: 100px;
+}
+
+.projects_classdeck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects_card{
+    padding: 5px;
+    margin: 8px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+ 
+.projects_card_title{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.projects_card_title_link{
+  color: white;
+  text-decoration: none;
+}
+
+.projects_card_footer{
+    padding: 4px;   
+    background-color: rgba(115, 115, 115, 0.34);
+    width: fit-content;
+    margin: auto;
+    border-radius: 5px;
+    
+
+}
+

@@ -1,0 +1,55 @@
+.home{
+    height: 100vh;
+    /* color: grey; */
+    background-color: #282c34;
+    display: flex;
+   
+   justify-items: center;
+   /* font-family: myFirstFont; */
+   
+}
+
+.home_template_name{
+    color: #e6276d;
+}
+
+.home_template{
+    font-size: 70px  ; 
+    /* align-self: center; */
+    color: white;
+    font-weight: 800;
+    margin: auto;
+}
+
+.home_template_title{
+ /* position: absolute; */
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/Empirez-PKZJx.ttf');
+  }
+
+.home_header{
+    position: fixed;
+    margin: auto;
+    right: 60px;
+    top: 40px;
+    background-color: #282c34;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.home_header_link{
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    margin-right: 30px;
+}
+
+.home_header_link:hover{
+    color:grey;
+    font-size: 20px;
+
+}
