@@ -1,10 +1,21 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/FontsFree-Net-Thedus-Wide.ttf');
+  }
 
+  @font-face {
+    font-family: textFont;
+    src: url('./fonts/Marvel-Regular.ttf');
+  }
 
 .projects{
     margin-top: 0;
     background-color: #282c34;
     color: white;
     padding: 15px;
+    padding-bottom: 40px;
+    min-height:80vh;
+    max-height: max-content;
 }
 
 
@@ -15,6 +26,7 @@
 .projects_title{
     margin-top: 0;
     font-size: 100px;
+    font-family: myFirstFont;
 }
 
 .projects_classdeck{
@@ -39,6 +51,7 @@
 .projects_card_title_link{
   color: white;
   text-decoration: none;
+  font-family: myFirstFont;
 }
 
 .projects_card_footer{
@@ -47,7 +60,10 @@
     width: fit-content;
     margin: auto;
     border-radius: 5px;
-    
+    font-family:textFont;
+}
 
+span{
+    color:#e6276d
 }
 

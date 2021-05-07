@@ -42,7 +42,9 @@ function About() {
                 </div>
                 <div className="about_right_content">
                     <p>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                    Hi, I'm Adithya Anbu. I am a full stack WEB and APP developer. 
+                    I have worked on quite a few projects and I would love to work on yours. 
+                    For more information you can <span> <a href="#contact" style={{textDecoration:"none",color:"#e6276d" }}>contact me </a></span>here. 
                     </p>
                 </div>
             </div>

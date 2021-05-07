@@ -71,7 +71,7 @@ function Projects() {
                     </a>
                     
                     </Card.Title>
-                    <Card.Text>
+                    <Card.Text >
                     Built with : <span>React.js</span> <span>Firebase</span> 
                         
                     </Card.Text>

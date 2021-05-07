@@ -1,6 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./fonts/FontsFree-Net-Thedus-Wide.ttf');
+  }
 
 .contact{
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .contact_title{
@@ -8,6 +13,8 @@
     font-size: 100px;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: myFirstFont;
+
 }
 
 .contact_social{
@@ -21,6 +28,8 @@
 .contact_social_title{
     font-size: xx-large;
     font-weight: 400;
+    font-family: myFirstFont;
+
 }
 
 .contact_social_links{

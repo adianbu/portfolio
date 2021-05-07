@@ -1,13 +1,19 @@
 .home{
     height: 100vh;
+    /* width: 100vw; */
     /* color: grey; */
     background-color: #282c34;
     display: flex;
-   
+   /* position: relative; */
    justify-items: center;
-   /* font-family: myFirstFont; */
-   
+   font-family: myFirstFont;
+   /* position: fixed; */
 }
+
+@keyframes title {
+    from {opacity:0%}
+    to {opacity:100%}
+  }
 
 .home_template_name{
     color: #e6276d;
@@ -19,6 +25,7 @@
     color: white;
     font-weight: 800;
     margin: auto;
+    animation: title 1.5s ease-in;
 }
 
 .home_template_title{
@@ -28,7 +35,7 @@
 
 @font-face {
     font-family: myFirstFont;
-    src: url('./fonts/Empirez-PKZJx.ttf');
+    src: url('./fonts/FontsFree-Net-Thedus-Wide.ttf');
   }
 
 .home_header{
@@ -39,6 +46,7 @@
     background-color: #282c34;
     padding: 10px ;
     border-radius: 10px;
+    z-index: 99;
 }
 
 .home_header_link{
@@ -49,7 +57,33 @@
 }
 
 .home_header_link:hover{
-    color:grey;
+    color: #e6276d;
     font-size: 20px;
 
+}
+
+
+@media screen and (max-width: 768px) {
+    .home_header{
+        position: fixed;
+        margin: auto;
+        /* right: 60px; */
+        width: 75%;
+        /* display: flex; */
+        left: 50%;
+        top: 40px;
+        background-color: #282c34;
+        padding: 10px ;
+        border-radius: 10px;
+        z-index: 99;
+    }
+}
+
+@media screen and (width: 425px) {
+    .home{
+        width: max-content;
+    }
+   .home_template{
+       padding: 30px;
+   }
 }
