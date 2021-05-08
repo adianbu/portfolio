@@ -6,6 +6,7 @@
 .contact{
     justify-content: center;
     padding-bottom: 20px;
+    background-color: #fff;
 }
 
 .contact_title{
@@ -47,6 +48,16 @@
 .contact_social_avatar{
     height: 50px ;
     width: 50px ;
+}
+
+.contact_social_email{
+    font-weight: 500;
+    font-size:19px;
+}
+
+.contact_social_email:hover{
+  color:#e6276d;
+  transform: scale(1.1);
 }
 
 .MuiAvatar-img{

@@ -8,13 +8,17 @@ import insta from "./images/insta.png";
 
 
 function Projects() {
+    // var tech=["React"];
+    // var footer=["React"];
+    //  var title = "d";
     return (
         <div className="projects" id="projects" >
             <p className="projects_title">Projects</p>
             
             {/* <a className="projects_link" href="https://corona-tracker-7c265.web.app/">Corona tracker</a> */}
             
-            <CardDeck className="projects_classdeck">           
+            <CardDeck className="projects_classdeck">   
+            {/* <ProjectCard src={corona} tech={tech} footer={footer} title={title}/>         */}
                 <Card className="projects_card">
                 <a href="https://corona-tracker-7c265.web.app/" target="_blank" rel="noreferrer">
                 <Card.Img variant="top" src={corona} width="300px" />
@@ -32,7 +36,7 @@ function Projects() {
                     </Card.Body>
 
                     <Card.Footer className="projects_card_footer">
-                    <small className="text-muted">Fullstack</small>
+                    <small className="text-muted">Frontend</small>
                     </Card.Footer>
                 </Card>   
 
@@ -81,6 +85,8 @@ function Projects() {
                     <small className="text-muted">Fullstack</small>
                     </Card.Footer>
                 </Card>
+
+                {/* <Cards /> */}
             </CardDeck> 
         </div>
     )

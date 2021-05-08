@@ -10,7 +10,7 @@
 
 .projects{
     margin-top: 0;
-    background-color: #282c34;
+    background-color: #251f44;
     color: white;
     padding: 15px;
     padding-bottom: 40px;
@@ -27,6 +27,13 @@
     margin-top: 0;
     font-size: 100px;
     font-family: myFirstFont;
+    animation: floating 3s ease-in-out infinite ;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 6px); }
+    100%   { transform: translate(0, -0px); }    
 }
 
 .projects_classdeck{

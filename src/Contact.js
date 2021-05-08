@@ -14,6 +14,9 @@ function Contact() {
         <div className="contact" id="contact">
             <p className="contact_title">Contact</p>
             <div className="contact_social">
+            <p className="contact_social_title">Email</p>
+            <p className="contact_social_email"> theadithyaanbu@gmail.com</p>
+
                <p className="contact_social_title">Social Media</p>
                
                <div className="contact_social_links">
