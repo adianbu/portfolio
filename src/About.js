@@ -4,6 +4,8 @@ import {Avatar} from "@material-ui/core";
 
 import random from './icons/github.png';
 import vk from './images/vk.png';
+import dp from './images/dp.jpg';
+
 
 function About() {
     return (
@@ -35,7 +37,7 @@ function About() {
 
             <div className="about_right">
                 <div className="about_avatar_div">
-                  <Avatar src={vk} className="about_avatar" />
+                  <Avatar src={dp} className="about_avatar" />
                 </div>
                 <div className="about_right_divider">
 
