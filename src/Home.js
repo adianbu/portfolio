@@ -1,18 +1,20 @@
-import React,{useEffect,useRef} from 'react'
+import React from 'react'
 import "./Home.css";
+import { Link} from 'react-scroll'
+
 
 
 function Home() {
  
     return (
-        <div className="home"> 
+        <div className="home" id="home"> 
         
         <div className="home_header">
-          <a className="home_header_link" href="/">Home</a>
-          <a className="home_header_link" href="#about">About</a>
-          <a className="home_header_link"  href="#projects">Projects</a>
-          <a className="home_header_link"  href="#contact">Contact</a>
-        </div>
+          <Link  className="home_header_link" smooth={true} to="home" duration={1000}>Home</Link>
+          <Link className="home_header_link"  smooth={true}  to="about" duration={1000}>About</Link>
+          <Link className="home_header_link"  smooth={true}  to="projects" duration={1000}>Projects</Link>
+          <Link className="home_header_link"  smooth={true}   to="contact" duration={1000}>Contact</Link>
+        </div> 
             <p className="home_template">
                 Hi , I'm <span className="home_template_name">Adithya Anbu</span> <br/>
                 

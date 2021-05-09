@@ -123,6 +123,16 @@ header{
     border: 3px solid #e6276d;
 }
 
+.about_avatar_div> .MuiAvatar-root >.MuiAvatar-img{
+    /* border-radius: 50%; */
+    width: auto !important;
+
+}
+
+.about_avatar_div > .MuiAvatar-root{
+    background-color: #FEFFF9;
+}
+
 @media screen and (max-width: 768px) {
     .about_center{
         display: flex;

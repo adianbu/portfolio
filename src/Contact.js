@@ -8,8 +8,12 @@ import insta from './icons/instagram.png';
 import youtube from './icons/youtube.png';
 import twitter from './icons/twitter.png';
 import github from './icons/github.png';
+import NavigationIcon from '@material-ui/icons/Navigation';
+import { animateScroll as scroll, } from 'react-scroll'
 
 function Contact() {
+
+
     return (
         <div className="contact" id="contact">
             <p className="contact_title">Contact</p>
@@ -59,7 +63,35 @@ function Contact() {
 
                </div>
                             
-            </div>            
+            </div>  
+
+            <div className="contact_back">
+            
+
+        {/* <Button
+        onClick={()=>{scroll.scrollToTop()}}
+        variant="outlined"
+        color="primary"
+        className="contact_back_button"
+        startIcon={<NavigationIcon />}
+      >
+          Back to top
+
+      </Button> */}
+
+      <button
+              onClick={()=>{scroll.scrollToTop()}}
+              className="contact_back_button"
+
+         >
+         <NavigationIcon className="contact_back_button_navigation"
+/>
+                   BACK TO TOP
+
+
+      </button>
+
+            </div>          
         </div>
     )
 }
