@@ -10,8 +10,8 @@
 
 .about{
     height:100vh;
-    background-color: #251f44;
-    color: white;
+    background-color: #fff;
+    color: #282c34;
 }
 
 header{
@@ -19,11 +19,13 @@ header{
 }
 
 .about_title{
-    color: white;
+    /* color: white; */
     font-size: 100px;
     margin-top: 0%;
     font-family: myFirstFont;
-    animation: floating 3s ease-in-out infinite
+    animation: floating 3s ease-in-out infinite;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+
     /* ,fade 3s ease infinite; */
 }
 
@@ -34,11 +36,13 @@ header{
 }
 
 @keyframes fade {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 6px); }
-    100%   { transform: translate(0, -0px); } 
+    0% {
+        opacity: 0;
+     }
+     100% {
+        opacity: 1;
+     }
 }
-
 
 .about_center{
     display: flex;
@@ -53,13 +57,51 @@ header{
     justify-content: center;
     align-items: center;
     padding-right: 70px;
+    
 
 }
+
+
+
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ }
+
+ @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+ @keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
 
 .about_right{
     flex: 1;
     justify-content: flex-end;
     padding-right: 50px;
+    /* animation: fadeInRight 1s ease-in-out normal  */
+
 }
 
 .about_left_title{
@@ -72,12 +114,12 @@ header{
 }
 
 .about_skillsets{
-    /* border: .5px solid #e6276d; */
-    outline:5px solid #fff;
+   
+    outline:5px solid #282c34;
     border-radius: 5px;
     width: fit-content;
     margin-left: 40px;
-    color:white;
+    color:#282c34;
     display: flex;
     padding: 8px;
     font-family: myFirstFont;
@@ -106,7 +148,7 @@ header{
 }
 
 .about_right_divider{
-    background-color: #fff;
+    background-color: #282c34;
     width: 100;
     height:5px;
     border-radius: 5px;
@@ -114,9 +156,11 @@ header{
 }
 
 .about_right_content{
-    text-align: right;
-    /* color:#e6276d; */
-    /* font-family: textFont; */
+    text-align: right;    
+}
+
+#about_right_link{
+    color: #e6276d;
 }
 
  .about_avatar {
@@ -124,7 +168,7 @@ header{
 }
 
 .about_avatar_div> .MuiAvatar-root >.MuiAvatar-img{
-    /* border-radius: 50%; */
+   
     width: auto !important;
 
 }
@@ -156,11 +200,11 @@ header{
     
     .about_skillsets{
         /* border: .5px solid #e6276d; */
-        outline:5px solid #fff;
+        /* outline:5px solid #fff; */
         border-radius: 5px;
         width: fit-content;
-        /* margin:auto; */
-        color:white;
+       
+        /* color:white; */
         display: flex;
         padding: 8px;
         font-family: myFirstFont;
@@ -178,7 +222,7 @@ header{
         padding: 40px;
     }
     .about_right_divider{
-        background-color: #fff;
+        /* background-color: #fff; */
         width: 100;
         height:5px;
         border-radius: 5px;
