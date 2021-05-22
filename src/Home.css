@@ -24,10 +24,16 @@
     color: white;
     font-weight: 800;
     margin: auto;
-    animation: title 1.5s ease-in,
-    floating 3s ease-in-out infinite ;
-    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* animation: title 1.5s ease-in, */
+    animation: floating 3s ease-in-out infinite ;
+    /* transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
    
+}
+
+.home_template_animation{
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: floating 3s ease-in-out infinite !important;
+    margin: auto;
 }
 
 @keyframes title {
@@ -110,3 +116,4 @@
     
  }
 }
+

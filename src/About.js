@@ -14,11 +14,14 @@ function About() {
 // }}>
         <div className="about" id="about">
         
+        <Fade up >
         <p className="about_title">
-        <Fade up>About</Fade></p>
+       
+        About
         
-           
-
+        </p>
+        </Fade>
+        
             <div className="about_center">
 
             <Fade left cascade>
@@ -49,21 +52,25 @@ function About() {
             </div>
             </Fade>
 
-            <div className="about_right">
-                <div className="about_avatar_div">
-                  <Avatar src={dp} variant="square" className="about_avatar" />
-                </div>
-                <div className="about_right_divider">
+            <Fade right cascade>
+                <div className="about_right">
+                    <div className="about_avatar_div">
+                    <Avatar src={dp} variant="square" className="about_avatar" />
+                    </div>
+                    <div className="about_right_divider">
 
+                    </div>
+                    <div className="about_right_content">
+                        <p>
+                        Hi, I'm Adithya Anbu. I am a full stack WEB and APP developer. 
+                        I have worked on quite a few projects and I would love to work on yours. 
+                        For more information you can <span> <a id="about_right_link" href="#contact" style={{textDecoration:"none" }}>contact me </a></span>here. 
+                        </p>
+                    </div>
                 </div>
-                <div className="about_right_content">
-                    <p>
-                    Hi, I'm Adithya Anbu. I am a full stack WEB and APP developer. 
-                    I have worked on quite a few projects and I would love to work on yours. 
-                    For more information you can <span> <a id="about_right_link" href="#contact" style={{textDecoration:"none" }}>contact me </a></span>here. 
-                    </p>
-                </div>
-            </div>
+            </Fade>
+
+            
 
             </div>
 

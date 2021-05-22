@@ -2,6 +2,7 @@ import React from 'react'
 import "./Home.css";
 import { Link} from 'react-scroll'
 
+import {Zoom } from 'react-reveal'
 
 
 function Home() {
@@ -15,15 +16,21 @@ function Home() {
           <Link className="home_header_link"  smooth={true}  to="projects" duration={1000}>Projects</Link>
           <Link className="home_header_link"  smooth={true}   to="contact" duration={1000}>Contact</Link>
         </div> 
-            <p className="home_template">
-                Hi , I'm <span className="home_template_name">Adithya Anbu</span> <br/>
-                
-                I am a Full stack  <br/>
 
-               
-                 
-                developer
-            </p>
+        <div className="home_template_animation">
+        <Zoom bottom  className="home_template_animation">
+
+            <p className="home_template">
+                    Hi , I'm <span className="home_template_name">Adithya Anbu</span> <br/>
+                    
+                    I am a Full stack  <br/>
+
+                
+                    
+                    developer
+                </p>
+        </Zoom>
+        </div>   
         </div>
     )
 }
