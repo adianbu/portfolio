@@ -41,7 +41,7 @@ function Projects() {
                         </a>
                             </Card.Title>
                             <Card.Text>
-                            Built with : <span> React.js</span>
+                            Built with : <span className="projects_card_skillsets"> React.js</span>
                             </Card.Text>
                         </Card.Body>
 
@@ -65,7 +65,7 @@ function Projects() {
                         
                         </Card.Title>
                         <Card.Text>
-                        Built with : <span>React.js</span> <span>Firebase</span> 
+                        Built with : <span className="projects_card_skillsets">React.js</span> <span className="projects_card_skillsets">Firebase</span> 
                             
                         </Card.Text>
                         </Card.Body>
@@ -90,7 +90,7 @@ function Projects() {
                         
                         </Card.Title>
                         <Card.Text >
-                        Built with : <span>React.js</span> <span>Firebase</span> 
+                        Built with : <span className="projects_card_skillsets">React.js</span> <span className="projects_card_skillsets">Firebase</span> 
                             
                         </Card.Text>
                         </Card.Body>
