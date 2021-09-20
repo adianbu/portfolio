@@ -16,23 +16,23 @@ function App() {
     <div className="App">  
 
       <Switch>
-      <Route path="/fff">
+      <Route path="/oneplus">
         <Random/>
         </Route>
 
-        <Route path="/fffg">
+        <Route path="/oneplusNord">
         <Random2/>
         </Route>
 
-        <Route path="/fffo">
+        <Route path="/oneplusNord2">
         <Random3/>
         </Route>
 
-        <Route path="/fff4">
+        <Route path="/Redmi">
         <Random4/>
         </Route>
 
-        <Route path="/fff5">
+        <Route path="/Redmi2">
         <Random5/>
         </Route>
 
